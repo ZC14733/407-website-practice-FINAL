@@ -73,14 +73,15 @@
   width: 1114px;
   height: 60px;
 }
-.rectangle-1 {
-  border-radius: 0px;
+.frame-1 {
+  background: #a8ff35;
+  border-radius: 10px;
   width: 180px;
   height: 57px;
   position: absolute;
-  left: 630px;
-  top: 668px;
-  overflow: visible;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - -159px);
 }
 .get-started {
   color: #000000;
@@ -89,6 +90,8 @@
   font-size: 24px;
   font-weight: 400;
   position: absolute;
-  left: 651px;
-  top: 682px;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
 }
+
